@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/step")
+@RequestMapping("/api/step")
 public class StepController {
 
     private StepService stepService;
