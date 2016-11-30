@@ -1,4 +1,4 @@
-package com.testtracker.domain;
+package com.testtracker.step;
 
 import javax.persistence.*;
 

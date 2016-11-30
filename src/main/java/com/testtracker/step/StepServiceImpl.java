@@ -1,8 +1,5 @@
-package com.testtracker.service.impl;
+package com.testtracker.step;
 
-import com.testtracker.domain.Step;
-import com.testtracker.repository.StepRepository;
-import com.testtracker.service.StepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,14 +1,12 @@
-package com.testtracker.controller;
+package com.testtracker.step;
 
-import com.testtracker.domain.Step;
-import com.testtracker.service.StepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/step")
+@RequestMapping("/step")
 public class StepController {
 
     private StepService stepService;
@@ -37,5 +35,4 @@ public class StepController {
     Step update(@RequestBody Step step) {
         return stepService.save(step);
     }
-
 }

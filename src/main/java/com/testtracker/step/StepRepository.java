@@ -1,6 +1,5 @@
-package com.testtracker.repository;
+package com.testtracker.step;
 
-import com.testtracker.domain.Step;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

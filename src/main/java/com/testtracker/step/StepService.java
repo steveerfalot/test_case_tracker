@@ -1,6 +1,5 @@
-package com.testtracker.service;
+package com.testtracker.step;
 
-import com.testtracker.domain.Step;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
